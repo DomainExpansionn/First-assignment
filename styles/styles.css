@@ -171,3 +171,32 @@ body{
     color: #B3B3B3;
     font-size: 16px;
 }
+
+/* focus */
+.focus{
+    text-align: center;
+    padding: 71px 150px;
+    background-color: white;
+    margin: 0px 150px 92px 150px;
+    border-radius: 14px;
+}
+.wc-big{
+    width: 840px;
+    height: 365px;
+    border: none;
+    border-radius: 48px;
+    margin-top: 20px;
+    
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.focus-description{
+    font-size: 16px;
+    opacity: 50%;
+    color: black;
+    margin-bottom: 20px;
+}
