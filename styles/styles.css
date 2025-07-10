@@ -133,4 +133,41 @@ body{
     background-color: white;
     border: none;
     border-radius: 14px;
+    padding: 24px;
+}
+.five-star{
+    display: flex;
+    gap: 4px;
+    margin-bottom: 24px;
+}
+.feedback-title{
+    font-size: 24px;
+    font-weight: 600;
+    word-spacing: -2%;
+    color: #1E1E1E;
+}
+.feedback{
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.avatar{
+    display: flex;
+}
+.round-pic{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 12px;
+}
+.reviewer-name{
+    margin-bottom: 2px;
+    font-size: 16px;
+    color: #757575;
+    font-weight: 600;
+}
+.date{
+    color: #B3B3B3;
+    font-size: 16px;
 }
