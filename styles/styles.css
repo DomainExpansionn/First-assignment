@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Color and font initialization */
+.primary-color{
+    color: #4E47FF;
+}
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.raleway{
+    font-family: "Raleway", sans-serif;
+}
+
+/* navbar design */
+body{
+    background-color: #f5f8ff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    justify-items: center;
+    
+}
+.logo{
+    font-size: 34px;
+    margin: 0px;
+    
+}
+.sign-up{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.header{
+    background-image: url("../Assets/Hero-bg.png");  
+    height: 698px;
+    background-repeat: no-repeat;
+}
+
+/* banner */
+.cool-dark{
+    font-size: 65px;
+    font-weight: bold;
+    padding: 158px 267.5px 37px 267.5px;
+}
+.banner{
+    text-align: center;
+}
+/* main body */
+.action{
+    padding: 115px 140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 220px;
+    align-items: center;
+}
+.webflow{
+    border: none;
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+}
+.action-header{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 23px;
+    color: #252432;
+}
+.action-details{
+    color: #252432;
+    font-size: 24px;
+    margin-bottom: 23px;
+    line-height: 30px;
+    opacity: 50%;
+}
+.productivity{
+    background-color: rgba(78, 71, 255, 0.1);
+    border: none;
+    border-radius: 24px;
+    margin: 0px 160px 137px 140px;
+    text-align: center;
+    padding: 50px 142px;
+}
+.productivity-details{
+    display: flex;
+    justify-content: space-between;
+}
+.stats{
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+.productivity-heading{
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.number-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+/* what our users say */
+.users{
+    margin: 0px 150px 137px 150px;
+}
+.what-users{
+    text-align: center;
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+.overall-feedback{
+    display: flex;
+    gap: 20px;
+}
+.users-card{
+    background-color: white;
+    border: none;
+    border-radius: 14px;
+}
