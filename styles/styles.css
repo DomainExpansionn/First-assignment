@@ -231,7 +231,7 @@ body{
     width: 100%;
 }
 #email, #name, #message{
-    margin-top: 19px;
+    margin-top: 10px;
     margin-bottom: 19px;
     padding: 20px 32px;
     border: none;
@@ -248,4 +248,35 @@ body{
   ::placeholder{
     font-size: 20px;
     font-family: "Inter" sans-serif;
+  }
+
+  /* footer */
+  footer{
+    padding: 104px 410px;
+    background-color: white;
+    text-align: center;
+  }
+  footer ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  footer ul li{
+    list-style: none;
+    
+  }
+  footer ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+  }
+  .footer-logo{
+    color: #4E47FF;
+    font-weight: 900;
+    font-size: 100px;
+  }
+  .footer-description{
+    color: #8987A1;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 20px;
   }
