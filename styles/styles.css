@@ -33,7 +33,7 @@ body{
 .logo{
     font-size: 34px;
     margin: 0px;
-    
+    font-weight: 900;
 }
 .sign-up{
     padding: 12px 36px;
@@ -129,6 +129,7 @@ body{
 .overall-feedback{
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 .users-card{
     background-color: white;
